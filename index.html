@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- 1. Owl carousel Min.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- 2. Owl carousel Theme Min. css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nguyễn Văn Tình</title>
+    <style>
+        .mau{
+            
+            background-color: transparent;
+        }
+        .chu{ 
+          text-align: justify;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+     
+    
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
+            <div class="container-fluid" id="b">
+                <a class="navbar-brand" href="#id">
+                    <img src="img/logo.png" alt="Avatar Logo" style="width:100px;" class="rounded-pill"> 
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ</a>   
+                               <a href="#id"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#a ">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#id">Đánh giá</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ib">Đăng nhập</a>
+                            <a href="#id"></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 " style="margin-right: 20px;" type="text" placeholder="Tìm kiếm">
+                        <button class="btn btn-drak bong " type="button"><i class="bi bi-search text-white"></i></button>
+                    </form>
+                    <button class="btn btn-drak " type="button"> <i class="bi bi-cart3 text-white mx-3"></i></button>
+                   
+                </div>
+
+
+            </div>
+        </nav>
+
+        
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner" style="background-image: url(img/background.jpg); ">
+              <div class="carousel-item active" style="background-image: url(img/home-bg.png); background-size: cover; ">
+                  <img src="img/product-1.png" style="width: 50%; margin-left:25%">
+              </div>
+              <div class="carousel-item" style="background-image: url(img/home-bg.png); background-size: cover; ">
+                  <img src="img/product-2.png" style="width: 50%; margin-left:25%">
+              </div>
+              <div class="carousel-item" style="background-image: url(img/home-bg.png); background-size: cover; ">
+                  <img src="img/product-3.png" style="width: 50%; margin-left:25%">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+      </div>
+    
+      <hr class="m-0" style="height: 2px;">
+
+   <section>
+
+       <div class="container-fluid " style="background-image: url(img/background.jpg);">
+           <h1 class="text-center fw-bold text-white " id="a">Our <span class="text-warning">Menu</span> <br> <img src="img/title-img.png" alt=""> </h1> 
+           
+           <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item mb-4 ">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-1.png" alt="image" class="card-img-top">
+                        <div class="card-body bg-dark text-white">
+                            <h4>Hamburger Bò</h4>
+                            <i class="bi bi-currency-dollar">25.00</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3"  target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-2.png" alt="image" class="card-img-top">
+                        <div class="card-body  bg-dark text-white">
+                            <h4> Hamburger Thịt xông khói </h4>
+                            <i class="bi bi-currency-dollar">17.80</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3" target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-3.png" alt="image" class="card-img-top">
+                        <div class="card-body  bg-dark text-white">
+                            <h4>Hamburger Gà</h4>
+                            <i class="bi bi-currency-dollar">21.99</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3" target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-4.png" alt="image" class="card-img-top">
+                        <div class="card-body  bg-dark text-white">
+                            <h4>Hamburger Thịt nướng</h4>
+                            <i class="bi bi-currency-dollar">20.50</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3" target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-5.png" alt="image" class="card-img-top">
+                        <div class="card-body  bg-dark text-white">
+                            <h4>Hamburger Cá</h4>
+                            <i class="bi bi-currency-dollar">15.00</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3" target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="img/product-6.png" alt="image" class="card-img-top">
+                        <div class="card-body  bg-dark text-white">
+                            <h4>Hamburger Thịt Cừu</h4>
+                            <i class="bi bi-currency-dollar">35.00</i>
+                            <div class="">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn btn-primary pd-3 my-3" target="_blank" href="giohang.html">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+           </div>
+       </div>
+   </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- 0. Jquery Cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <!--1. owl carousel min .js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Init Owl Carousel -->
+      <script>
+          $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+      </script>
+
+    <hr class="m-0 " style="height: 2px;">
+    
+    <div class="container-fluid" style="background-image: url(img/background.jpg);">
+      <br><br>
+      <h1 class="text-center text-white py-3 " id="id" >  ĐÁNH GIÁ <span class="text-warning">KHÁCH HÀNG </span> </h1> 
+        <br>
+      <div class="row py-4" style="margin-left: 120px;">
+            <div class="col">
+                <div class="card mau text-white" style="width:300px">
+                    <img class="card-img-top  rounded-circle  mx-3" src="img/img_avatar3.png" style="width:100px;" alt="Card image">
+                    <div class="card-body">
+                      <div class="">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </div>
+                      <h4 class="card-title">Khang Tran</h4>
+                      <p class="card-text chu">Lần đầu tiên ăn món này theo giới thiệu từ bạn bè.
+                        Phải chờ mất 10 phút mới có bàn để ngồi vì khách rất đông. nhân viên tư vấn nhiệt tình,hamburger bò rất thơm,bò Uc mềm khác hẳn với bò Việt Nam.gà burger rất to,giòn và ngọt thịt, tôi sẽ quay trở lại nhiều lần sau và giới thiệu cho bạn bè cũng thưởng thức
+                        
+                        </p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card mau text-white" style="width:300px">
+                    <img class="card-img-top  rounded-circle  mx-3" src="img/img_avatar3.png" style="width:100px;" alt="Card image">
+                    <div class="card-body">
+                      <div class="">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </div>
+                      <h4 class="card-title">David Kem</h4>
+                      <p class="card-text chu">Đến đây qua sự tư vấn của cô bạn.lần đầu tiên thử món hamburger theo kiểu phương tây.tưởng không ngon nhưng mà ngon không tưởng,thịt bò úc khác hẳn với thịt bò địa phương,mềm và thơm,họ có nước sốt salad tuyệt vời.đội ngũ nhân viên thân thiện,đáng yêu,tư vấn nhiệt tình.
+                        sẽ sẵn sàng giới thiệu cho những người khác đến đây ăn.
+                        Thank you so much
+                        
+                       </p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card mau text-white " style="width:300px">
+                    <img class="card-img-top  rounded-circle chu mx-3" src="img/img_avatar3.png" style="width:100px;" alt="Card image">
+                    <div class="card-body">
+                      <div class="">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </div>
+                      <h4 class="card-title">Hau Nguyen</h4>
+                      <p class="card-text chu">Mình đã từng oder thức ăn từ nhà hàng để mang về.lần này mình đến trực tiếp để được thưởng thức món hamburger nóng hổi đậm kiểu phương tây.
+                        mình oder cheese burger,bạn mình gọi món prince burger theo lời giới thiệu của bạn nhân viên.cả 2 đều rất ngon,thật tuyệt vời.ở đây không gian ấm cúng,sạch sẽ,nhân viên thân thiện,niềm nở với khách hàng,chất lượng phục tốt 10/10.
+                        
+                         </p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+          
+        </div>
+
+    </div> 
+
+    <hr class="m-0 " style="height: 2px;">
+<div class="container-fluid py-5"  style="background-image: url(img/background.jpg);">
+  <br><br>
+  <div class="row">
+    <div class="col" id="ib">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18289.17373441997!2d105.76328311440325!3d10.01555444975644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a088337f302b39%3A0x6ae5bb5ecf4928b9!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEPhuqduIFRoxqEsIDQxMyDEkcaw4budbmcgMzAgVGjDoW5nIDQsIHBoxrDhu51uZyBIxrBuZyBM4bujaSwgcXXhuq1uIE5pbmggS2nhu4F1LCA0MTMgxJDGsOG7nW5nIDMwIFRow6FuZyA0LCBIxrBuZyBM4bujaSwgTmluaCBLaeG7gXUsIEPhuqduIFRoxqEgOTIwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1654923216473!5m2!1svi!2s" Min-width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="px-4"></iframe>
+    </div>
+    <div class="col">
+      <img src="img/logo.png" alt="">
+      <h4 class="text-white" >CÔNG TY TNHH BURGER VIỆT NAM </h4>
+      <p class="text-white py-3"><i class="bi bi-geo-alt">Địa chỉ : Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam </i> <br>
+      </p>
+      <span class="text-white py-3">
+        Điện thoại : <i class="bi bi-telephone-forward "> (028) 39309168</i>
+      </span><br><br>
+      <i class="bi bi-envelope text-white ">       jbvnfeedback@Burger.com.vn</i>
+      <br><br>
+      <p class="text-white">Mã số thuế: 0303883266 <br><br>
+        Ngày cấp: 15/07/2008
+        <br><br>
+        Nơi cấp: Cục Thuế Hồ Chí Minh
+      </p>
+
+    </div>
+
+    <div class="col">
+      <h4 class="text-white" >ĐĂNG NHẬP TẠI ĐÂY :  </h4>
+        
+         <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Đăng nhập
+          </button>
+
+<!-- Modal -->
+       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+         <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Đăng Nhập</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Tài Khoản Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Chúng tôi sẽ không bao giờ chia sẻ email của bạn với bất kỳ ai khác.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Lưu Mật Khẩu</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Gửi</button>
+              </form>
+    
+                  </div>
+         <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+      <button type="button" class="btn btn-primary">Tiếp tục</button>
+    </div>
+    
+
+ </div>
+</div>
+     
+
+               </div><br><br><br>
+               <img src="img/anh1.jpg" style="width:200px " class=" rounded-circle "   alt="">
+               <br><br><br>
+               <i class="bi bi-facebook text-primary mx-3 "></i>
+               <i class="bi bi-twitter text-info mx-3"></i>
+               <i class="bi bi-google mx-3 text-success"></i>
+               <i class="bi bi-youtube text-danger mx-3"></i>
+              </div>
+             
+        </div>
+         
+
+  
+ 
+</div>
+ 
+         
+
+  </body>
+
+</html>
